@@ -56,7 +56,7 @@ group_helper_conf:
     - '口碑KFC必胜客麦当劳优惠券'
     - '京东内部优惠群-9.9专区①'
     - '拼多多内部优惠群①'
-
+    - '测试群'
   # 黑名单用户。当 is_all ：True 。这个群里的用户不受影响。
   group_name_black_list:
     - ''
@@ -85,16 +85,18 @@ taobao:
     - {group_name: '口碑KFC必胜客麦当劳优惠券', group_material_id: '19810', minute: '30', hour: '7-23'}
     - {group_name: '淘宝内部优惠群-女装类①', group_material_id: '3767,27448,13367,3788', minute: '10,40', hour: '7-23'}
     - {group_name: '淘宝内部优惠群-零食类①', group_material_id: '13375,3761,27451,3791', minute: '10,40', hour: '7-23'}
-
+    - {group_name: '测试群', group_material_id: '13375,3761,27451,3791', minute: '10,40', hour: '7-23'}
+    
 jingdong:
-  is_open: False
+  is_open: True
   app_key: ''
   app_secret: ''
   site_id: ''
   suo_im: ''
   chat_groups:
     - {group_name: '京东内部优惠群-9.9专区①', group_material_id: '10', minute: '10,40', hour: '7-23'}
-
+    - {group_name: '测试群', group_material_id: '13375,3761,27451,3791', minute: '10,40', hour: '7-23'}
+    
 pinduoduo:
   is_open: True
   app_key: ''
