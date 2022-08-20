@@ -7,10 +7,10 @@ wechat_uuid: ''
 #---------------------------------------自动回复功能设置--------------------------------------start
 auto_reply_info:
   # 是否开启自动回复
-  is_auto_reply: False
+  is_auto_reply: True
 
   # 是否自动回复所有好友(慎重启动！),开启后，仅仅有黑名单的成员才不会自动回复
-  is_auto_reply_all: False
+  is_auto_reply_all: True
 
   # 智能闲聊（腾讯）https://ai.qq.com/product/nlpchat.shtml。免费且无限量
   qqnlpchat_conf:
@@ -18,9 +18,9 @@ auto_reply_info:
     app_key: ''
 
   # 自动回复消息前缀（不需要则设置为空）
-  auto_reply_prefix: ''
+  auto_reply_prefix: '恭喜你：'
   # 自动回复消息后缀（不需要则设置为空）
-  auto_reply_suffix: ''
+  auto_reply_suffix: 'O(∩_∩)O哈哈~'
 
   # 是否允许通过关键字自动加好友
   is_auto_add_friend: True
